@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* main  section start */
+.main{
+    width: 100vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lan{
+    display: flex;
+    margin-left: 5%;
+    
+}
+.lan a i{
+    color:  rgb(207, 4, 4);
+    padding-right: 5px;
+}
+.text{
+    margin-right: 10%;
+}
+.arrow a i{
+    color: black;
+    padding-left: 10px;
+    align-items: center;
+    padding-top: 2px;
+}
+.text span{
+    color:  rgb(207, 4, 4);
+}
+
+
+
+
+
+/* navbar start  */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 12vh;
+    background-color: rgb(207, 4, 4);
+}
+.nav-logo p{
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 20px;
+
+}
+.nav-list{
+    display: flex;
+}
+.nav-list ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.nav-list ul li{
+    padding-left: 30px;
+    color: white;
+    transition: 0.4s;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.nav-ser{
+    padding-left: 25px;
+}
+.nav-ser input{
+    position: relative;
+    height: 6vh;
+    width: 17vw;
+    padding-left: 25px;
+    font-size: 1rem;
+    margin-right: 20px;
+}
+.nav-ser a i{
+    position: absolute;
+    color: gray;
+    top: 11%;
+    right: 17%;
+    font-size: 1rem;
+}
